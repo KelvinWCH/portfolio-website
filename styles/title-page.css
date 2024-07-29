@@ -1,0 +1,27 @@
+.header-text {
+    font-size: 70px;
+    font-family: 'sans-serif';
+    font-weight: 100;
+    width: 1500px;
+    margin-left: 50px;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    font-weight: 100;
+    
+}
+
+.introduction-text{
+    width: 750px;
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+.fine-typography-text{
+    margin-left: 50px;
+    font-family: 'sans-serif';
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

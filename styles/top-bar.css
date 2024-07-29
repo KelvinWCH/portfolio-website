@@ -1,0 +1,96 @@
+
+.top-bar{
+    position: fixed;
+    background-color: #f8ece4;
+
+/*
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #d67d3e;
+
+*/
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-button, .reading-button, .contact-button, .social-button{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+    border-radius: 4px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.15s ease; 
+}
+
+.project-button:hover, .reading-button:hover, .contact-button:hover, .social-button:hover{
+    background-color: rgba(158,198,134, 0.6);
+}
+.project-button:active, .reading-button:active, .contact-button:active, .social-button:active{
+    opacity: 0.6;
+}
+
+.earth-icon{
+    width: 30px;
+}
+
+.left-section, .right-section, .middle-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middle-home-button{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    cursor: pointer; 
+    font-size: 16px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background-color: transparent;
+    border-style: none;
+
+    user-select: none;
+
+    transition: background-color 0.15s ease, opacity 0.15s ease; 
+}
+
+
+.middle-home-button:hover{
+    background-color: rgba(158,198,134, 0.6);
+    
+}
+
+.middle-home-button:active{
+    opacity: 0.6;
+}
+
+.left-clock-text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-left: 10px;
+}
