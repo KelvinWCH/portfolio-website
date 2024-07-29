@@ -1,0 +1,44 @@
+.bottom-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.bottom-left-section, .bottom-middle-section, .bottom-right-section{
+    background-color: transparent;
+}
+
+.bottom-left-section, .bottom-right-section{
+    flex: 1;
+}
+
+.bottom-right-section{
+    justify-content: flex-end;
+}
+
+
+.bottom-left-text{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #FEFDED;
+    margin-left: 10px;
+    font-size: 1.5vh;
+
+}
+
+
+.bottom-middle-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.social-icons{
+    width: 3vh;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+strong{
+    background-color: transparent;
+}

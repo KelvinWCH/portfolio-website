@@ -3,19 +3,22 @@
     position: fixed;
     background-color: #f8ece4;
 
-/*
+    /*
+    f8ece4
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: #d67d3e;
+    border-bottom-color: green;
+    */
 
-*/
     left: 0;
     right: 0;
     top: 0;
     padding-left: 20px;
     padding-right: 20px;
 
-    height: 60px;
+    z-index: 1000;
+
+    height: 6vh;
 
     display: flex;
     justify-content: space-between;
@@ -25,7 +28,7 @@
 .project-button, .reading-button, .contact-button, .social-button{
     border: none;
     background-color: transparent;
-    font-size: 16px;
+    font-size: 1.75vh;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 600;
     margin-right: 10px;
@@ -51,20 +54,27 @@
     width: 30px;
 }
 
-.left-section, .right-section, .middle-section{
+.left-section, .right-section{
+    flex: 1;
+    
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.right-section{
+    justify-content: flex-end;
 }
 
 
 .middle-home-button{
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
     cursor: pointer; 
-    font-size: 16px;
+    font-size: 2vh;
     border-radius: 4px;
     align-items: center;
     justify-content: center;
+
+    
 
     padding-left: 10px;
     padding-right: 10px;
@@ -93,4 +103,6 @@
     font-family: 'Montserrat';
     font-weight: 500;
     margin-left: 10px;
+
+    font-size: 1.75vh;
 }
