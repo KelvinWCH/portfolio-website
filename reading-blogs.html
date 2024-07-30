@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./styles/top-bar.css">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/reading-blogs.css">
+
+        <script src="./script/buttons.js" defer></script>
+        
+    </head>
+
+    <body>
+        <div class="top-bar">
+            <div class="left-section">
+                <img class="earth-icon" src="icons/earth.svg">
+                <p class="left-clock-text">12:00 AM</p>
+            </div>
+            <div class="middle-section">
+                <button class="middle-home-button" onclick = "go_home()">
+                    <span style="font-weight: bold; background-color: transparent;"> Kelvin Chung </span>
+                    &#128900 Computer Scientist
+                </button>
+            </div>
+            <div class="right-section">
+                <button class="project-button"> Projects </button>
+                <button class="reading-button" onclick = "go_reading_blog()" style = "background-color: rgb(158,198,134);"> Reading Blogs </button>
+                <button class="social-button"> Socials </button>
+                <button class="contact-button"> Contact </button>
+            </div>
+        </div>
+
+        <div class = "container">
+            <div class = "blog-container">
+                whats good
+            </div>
+        </div>
+
+        <script src="script/time.js"> </script>
+    </body>
+
+</html>

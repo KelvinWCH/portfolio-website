@@ -12,12 +12,15 @@
     flex: 1;
 }
 
-.bottom-right-section{
-    justify-content: flex-end;
+
+.bottom-right-text{
+    text-align: right;
+    margin-right: 10px;
+    font-weight: 500;
 }
 
 
-.bottom-left-text{
+.bottom-left-text, .bottom-right-text{
     margin-top: 1px;
     margin-bottom: 1px;
     background-color: #FEFDED;
