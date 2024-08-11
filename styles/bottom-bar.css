@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
+
+    overflow: hidden;
 }
 
 .bottom-left-section, .bottom-middle-section, .bottom-right-section{
@@ -17,7 +19,7 @@
 .bottom-right-text{
     text-align: right;
     margin-right: 10px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -26,7 +28,7 @@
     margin-bottom: 1px;
     background-color: #FEFDED;
     margin-left: 10px;
-    font-size: 1.5vh;
+    font-size: 1.6vh;
 
 }
 
@@ -44,5 +46,6 @@
 }
 
 strong{
+    font-weight: 600;
     background-color: transparent;
 }

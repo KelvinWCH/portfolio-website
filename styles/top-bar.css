@@ -23,6 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 0px 10px 1px rgba(0,0,0, 0.15);
 }
 
 .project-button, .reading-button, .contact-button, .social-button{

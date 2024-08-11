@@ -1,9 +1,11 @@
-function go_home(){
-    console.log("test");
-    window.location.href = "./index.html";
+
+
+function to_page(page){
+    console.log("to " + page);
+    window.location.href = "./" + page + ".html";
 }
 
-function go_reading_blog(){
-    console.log("test");
-    window.location.href = "./reading-blogs.html";
+function to_externalPage(page){
+    console.log("to " + page);
+    window.open(page, "_blank");
 }

@@ -1,15 +1,13 @@
 body{
-    margin-top: 6vh;
     font-family: 'Montserrat', sans-serif;
     padding: 0px;
     background-color: #f8ece4;
+    margin-top: 5vh;
 }
-
 
 *{
-    
+    box-sizing: border-box;
 }
-
 
 ::selection{
     background: #800000;
