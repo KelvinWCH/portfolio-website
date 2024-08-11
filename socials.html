@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/top-bar.css">
+        <link rel="stylesheet" href="./styles/title-page.css">
+        <link rel="stylesheet" href="./styles/bottom-bar.css">
+        <link rel="stylesheet" href="./styles/socials.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Libre Caslon Text' rel='stylesheet'>
+
+        <script src="./script/buttons.js" defer></script>
+
+
+        <title>Kelvin Chung | Computer Scientist</title>
+        <link rel = "icon" href = "./icons/coffee.svg">
+    </head>
+
+
+    <body>
+        <div class="top-bar">
+            <div class="left-section">
+                <img class="earth-icon" src="icons/earth.svg">
+                <p class="left-clock-text">12:00 AM</p>
+            </div>
+            <div class="middle-section">
+                <button class="middle-home-button" onclick= "to_page('index')"">
+                    <span style="font-weight: bold; background-color: transparent;"> Kelvin Chung </span>
+                    &#128900 Computer Scientist
+                </button>
+            </div>
+            <div class="right-section">
+                <button class="project-button"> Projects </button>
+                <button class="reading-button" onclick="to_page('reading-blogs')" >
+                    Reading Blogs </button>
+                <button class="social-button"  onclick="to_page('socials')" style="background-color: rgb(158,198,134)"> Socials </button>
+                <button class="contact-button"> Contact </button>
+            </div>
+        </div>
+
+        
+        
+        <div class="container">
+            <p class="contact-me-title">Contact me</p>
+            <div class="email-container" onclick="window.location.href='mailto:me@kelvinwchung.com'"> 
+                <h1 class="social-header">Reach me by email:</h1>
+
+                <div style = "display: flex; justify-content: space-between;">
+                    <div style = "display: flex; justify-content: space-evenly;">
+                        <a class="social-detail" href="mailto:me@kelvinwchung.com">me@kelvinwchung.com</a>
+                        <img src = "./icons/copy.svg" style = "width: 1.3em; margin-left: 10px;">
+                    </div>
+                    <img src = "./icons/arrow.svg" style = "width: 1.3em;">
+                </div>
+
+                
+            </div>
+        
+            <hr> 
+            
+            <div class="social-media-div">
+
+                <div class = "social-media-container">
+                    <img src = "./social-media-logos/Linkedin.png" style = "width: 7vw;">
+
+                    <div style = "display: flex; justify-content: space-between;">
+                        <div style = "display: flex; justify-content: space-evenly;">
+                            <a class="social-detail" href="https://www.linkedin.com/in/kelvin-chung-536720245/" target = "_blank">linkedin.com/kelvin-chung</a>
+                            <img src = "./icons/copy.svg" style = "width: 1.3em; margin-left: 10px;">
+                        </div>
+                        <img src = "./icons/arrow.svg" style = "width: 1.3em;">
+                    </div>
+
+                </div>
+
+                <div class = "social-media-container">
+                    <img src = "./social-media-logos/instagram.png" style = "width: 7vw;">
+
+                    <div style = "display: flex; justify-content: space-between;">
+                        <div style = "display: flex; justify-content: space-evenly;">
+                            <a class="social-detail" href="https://www.instagram.com/kelvin_chungg/" target = "_blank">instagram.com/kelvin_chungg</a>
+                            <img src = "./icons/copy.svg" style = "width: 1.3em; margin-left: 10px;">
+                        </div>
+                        <img src = "./icons/arrow.svg" style = "width: 1.3em;">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="social-media-div">
+
+                <div class = "social-media-container">
+                    <img src = "./social-media-logos/goodreads.png" style = "width: 7vw;">
+
+                    <div style = "display: flex; justify-content: space-between;">
+                        <div style = "display: flex; justify-content: space-evenly;">
+                            <a class="social-detail" href="https://www.goodreads.com/user/show/177729571-kelvin" target = "_blank">goodreads.com/kelvin</a>
+                            <img src = "./icons/copy.svg" style = "width: 1.3em; margin-left: 10px;">
+                        </div>
+                        <img src = "./icons/arrow.svg" style = "width: 1.3em;">
+                    </div>
+
+                </div>
+
+                <div class = "social-media-container">
+                    <img src = "./social-media-logos/github.png" style = "width: 5.5vw;">
+
+                    <div style = "display: flex; justify-content: space-between;">
+                        <div style = "display: flex; justify-content: space-evenly;">
+                            <a class="social-detail" href="https://github.com/KelvinWCH" target = "_blank">github.com/KelvinWCH</a>
+                            <img src = "./icons/copy.svg" style = "width: 1.3em; margin-left: 10px;">
+                        </div>
+                        <img src = "./icons/arrow.svg" style = "width: 1.3em;">
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+        </div>
+        
+        
+
+        <div class = "slides" style="background-color: #FEFDED; max-height: 10vh">
+            <div class = "bottom-bar">
+                <div class = "bottom-left-section">
+                    <p class = "bottom-left-text" style = "font-weight: 600;"> Designed and developed by Kelvin Chung using Visual Studio Code</p>
+                    <p class = "bottom-left-text"> <strong>Typography:</strong> San-Serif, Consolas, Montserrat</p>
+                    <p class = "bottom-left-text"> <strong>Written in:</strong> HTML, CSS, JavaScript</p>
+                </div>
+    
+                <div class = "bottom-middle-section">
+                    <img class = "social-icons" src = "icons/instagram.svg">
+                    <img class = "social-icons" src = "icons/linkedin.svg">
+                    <img class = "social-icons" src = "icons/email.svg">
+                    <img class = "social-icons" src = "icons/github.svg">
+                    <img class = "social-icons" src = "icons/leetcode.svg">
+                    <img class = "social-icons" src = "icons/goodreads.svg">
+    
+                </div>
+    
+                <div class = "bottom-right-section">
+                    <p class = "bottom-right-text"> They say all's well that ends well, but I'm in a new hell everytime. </p>
+                    <p class = "bottom-right-text"> 
+                    <a class = "august-link" href = "https://open.spotify.com/track/3hUxzQpSfdDqwM3ZTFQY0K?si=a555b60d45444aed" 
+                    target = "_blank">
+                    August</a> 
+                    is also my favourite month.</p>
+                
+                </div>
+    
+            </div>
+        </div>
+
+
+        <script src="./script/time.js"> </script>
+    </body>
+
+
+</html> 

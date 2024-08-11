@@ -15,7 +15,7 @@
 
     <script src="./script/buttons.js" defer></script>
     <title>Kelvin Chung | Computer Scientist</title>
-    <link rel="icon" href="./icons/coffee.svg">;
+    <link rel="icon" href="./icons/coffee.svg">
 
 </head>
 
@@ -26,24 +26,24 @@
             <p class="left-clock-text">12:00 AM</p>
         </div>
         <div class="middle-section">
-            <button class="middle-home-button" onclick="go_home()">
+            <button class="middle-home-button" onclick= "to_page('index')"">
                 <span style="font-weight: bold; background-color: transparent;"> Kelvin Chung </span>
                 &#128900 Computer Scientist
             </button>
         </div>
         <div class="right-section">
             <button class="project-button"> Projects </button>
-            <button class="reading-button" onclick="go_reading_blog()" style="background-color: rgb(158,198,134);">
+            <button class="reading-button" onclick="to_page('reading-blogs')" style="background-color: rgb(158,198,134);">
                 Reading Blogs </button>
-            <button class="social-button"> Socials </button>
+            <button class="social-button"  onclick="to_page('socials')"> Socials </button>
             <button class="contact-button"> Contact </button>
         </div>
     </div>
 
-    <div class="container" >
+    <div class="container">
         <div class="blog-introduction-container" >
             <p>
-                Welcome to my reading blog! Here, I'll rate the recent books I've read and share some feedback. If you didn't know, I mainly read non-fiction psychology and sociology books.
+                Welcome to my reading blog! Here, I'll rate the recent books I've read and share some feedback. If you didn't know, I mainly read non-fiction psychology, sociology, and philosphy books.
                 This blog may not always be consistently updated with what I'm currently reading, so check out my
 
                 <a class = "goodreads-profile-link" 
@@ -144,10 +144,10 @@
     </div>
 
 
-    <div class = "slides" style="background-color: #FEFDED; height: 10vh">
+    <div class = "slides" style="background-color: #FEFDED; max-height: 10vh">
         <div class = "bottom-bar">
             <div class = "bottom-left-section">
-                <p class = "bottom-left-text" style = "font-weight: 800;"> Designed and developed by Kelvin Chung using Visual Studio Code</p>
+                <p class = "bottom-left-text" style = "font-weight: 600;"> Designed and developed by Kelvin Chung using Visual Studio Code</p>
                 <p class = "bottom-left-text"> <strong>Typography:</strong> San-Serif, Consolas, Montserrat</p>
                 <p class = "bottom-left-text"> <strong>Written in:</strong> HTML, CSS, JavaScript</p>
             </div>
@@ -179,6 +179,7 @@
 
 
     <script src = "./script/create-book-blog.js"> </script>
+    <script src="./script/book-container-overflow-detector.js"> </script>
     <script src="./script/time.js"> </script>
 
     
