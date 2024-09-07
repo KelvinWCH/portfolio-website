@@ -87,3 +87,33 @@
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 1024px) {
+
+
+
+    .top-bar{
+        display: none;
+    }
+
+    .wip-bar{
+        display: none;
+    }
+
+    .slides{
+        padding: 50px;
+    }
+
+    .bottom-left-section{
+        visibility: hidden;
+    }
+
+    .bottom-right-section{
+        visibility: hidden;
+    }
+
+    .bottom-middle-section{
+        column-gap: 100px;
+        width: 100%;
+    }
+}
